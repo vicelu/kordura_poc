@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kordura — autonomous coastal sensor grid for bathing-water risk monitoring" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Kordura · Grid</title>
+    <script>
+      try {
+        const t = localStorage.getItem('kordura.theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+        const l = localStorage.getItem('kordura.lang')
+        if (l === 'hr' || l === 'en') document.documentElement.lang = l
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
