@@ -1,4 +1,4 @@
-# Kordura — grid interface (POC)
+# Kordura (POC)
 
 Web interface for the Kordura sensor grid in Župski zaljev (activity 1.7 in `project.md`): grid overview, per-node detail with historical charts, and an alert workflow that feeds lab verdicts back into model evaluation.
 
